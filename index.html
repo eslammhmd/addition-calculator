@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="modal hidden">
+        <div class="flex">
+          <img src="photo_2022-03-21_16-06-10.jpg" width="50px" height="50px" alt="user" />
+          <button class="btn-close">⨉</button>
+        </div>
+        <div>
+          <h2 style="text-align: center">Simple Calculator</h2>
+          <p id="replace">
+           Please enter two integer number in this fildes : 
+          </p>
+        </div>
+      
+        <input type="text" id="fnum" placeholder="Write F-num" />
+        <input type="text" id="snum" placeholder="Write S-num" />
+        <button id="result" class="btn">Git Addition</button>
+      </section>
+      
+      <div class="overlay hidden"></div>
+      <button class="btn btn-open">Open Modal</button>
+
+
+    <script src="result.js"></script>
+</body>
+</html>
